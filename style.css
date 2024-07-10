@@ -1,0 +1,12 @@
+h1 {
+    color: blueviolet;
+    font-size: 100px;
+}
+
+.content {
+    background-color: rgba(19, 5, 99, 0.579);
+    color: white;
+    padding: 30px 50px;
+    margin: 0;
+    font-family: 'Courier New', Courier;
+}

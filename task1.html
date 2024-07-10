@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Project</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="content">
+    <h1>Introduction to Data modeling</h1>
+    <h2> What you should know about data modeling </h2>
+    <h3>Main concepts</h3>
+     <ol>
+        <li>Enterprise</li>
+          <p>Entirety of an organization's technical infrastructure</p>
+        <li>Models and diagrams</li>
+          <p>Model: A scaled-down, non-functional representation of an object, system, or idea.</p>
+        <li>Diagram</li>
+          <p>A two- dimensional visual representation that is often abstracted or symbolic.</p>
+        <li>Master Data Managment (MDM)</li>
+          <p>This data describes an entity that is a person, place or thing. A customer is a person, and provbably the most reference example of a master data, think customer relational managment system or CMS.<br> Generally the attributes of things described as master data don't change or don't change often; think of a person's eye color, or a building, street address, or a sensors serial number. </p>
+        <li>Transactional data</li>
+          <p>when a customer make a purchase from a business who is a master data. Or a guest who is a Master data entity checks into a hotel, which is also a Master data entity. The data describing that purchase or the check in process is called transactional data.</p>
+        <li>Lookup data</li>
+          <p>lookup data is just as it sounds, a lot of times is abstracted into codes, so we need to be able to look up that value of that code right and know what it means. <br> Lets say we have the letter W to another entity, say the phone type entity, that also has A-W code as its identifier; but it alsohas other attributes, described the phone numer type like description column, where the value is work phone. So now we know that when we see A-W we can link it back to this other entity and know that it means work phone. The more normalized your data model, the more lookup entities you will likely see.</p>
+        <li>Metadata</li>
+          <p>this is data about the other three types of data; for example, an entity call person, now that person might have an attribute called eyes color and if that person has green eyes, then it would be a string with the word green, and if they have an attribute for age, that might be a tiny image for their age.</p>
+          
+
+     </ol>
+    <p>This is about cats</p> 
+    </div>
+    <img src="https://i.ytimg.com/vi/SQJrYw1QvSQ/maxresdefault.jpg" alt="cat">
+</body>
+    <script src="index.js"></script>
+</html>

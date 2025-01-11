@@ -5,12 +5,12 @@
 
 
 h1 {
-    color: rgb(192, 163, 219);
+    color: #DB838A;
     font-size: 100px;
 }
 
 .content {
-    background-color: rgba(19, 5, 99, 0.579);
+    background-color: #614679;
     color: white;
     padding: 30px 50px;
     margin: 0;
@@ -31,4 +31,5 @@ img {
     margin-top: 40px;
     font-size: 3rem;
     text-align: center;
+    color: #FFB592;
 }
